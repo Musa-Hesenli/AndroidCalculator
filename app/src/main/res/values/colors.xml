@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="app_green">#61B329</color>
+    <color name="text_color_light">#525252</color>
+    <color name="text_color_dark">#F4F4F4</color>
+    <color name="app_background_light">#FEFEFE</color>
+    <color name="app_red_color">#C81556</color>
+    <color name="button_background_light">#36F0F0F0</color>
+    <color name="button_background_dark">#1E1D1D</color>
+    <color name="app_background_dark">#171616</color>
+</resources>

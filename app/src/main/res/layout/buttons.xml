@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/relativeLayout"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/clearButton"
+                android:id="@+id/clear_button"
+                android:text="C"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <ImageButton
+                style="@style/edgeButtons"
+                android:id="@+id/parentheses_button"
+                android:src="@drawable/ic_parentheses_grouping_symbol"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <ImageButton
+                style="@style/edgeButtons"
+                android:id="@+id/module_button"
+                android:src="@drawable/ic_percentage__1_"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <ImageButton
+                android:id="@+id/multiply_button"
+                style="@style/edgeButtons"
+                android:src="@drawable/ic_multiply_mathematical_sign"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <Button
+                style="@style/calcButton"
+                android:text="@string/seven_button"
+                android:id="@+id/button_seven"
+                />
+
+            <Button
+                style="@style/calcButton"
+                android:text="@string/_8"
+                android:id="@+id/button_eight"
+                />
+
+            <Button
+                style="@style/calcButton"
+                android:text="@string/_9"
+                android:id="@+id/button_nine"
+                />
+
+            <ImageButton
+                style="@style/edgeButtons"
+                android:id="@+id/divide_button"
+                android:src="@drawable/ic_divide"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/calcButton"
+                android:text="4"
+
+                android:id="@+id/button_four"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/calcButton"
+                android:text="5"
+                android:id="@+id/button_five"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/calcButton"
+                android:text="6"
+                android:id="@+id/button_six"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <ImageButton
+                style="@style/edgeButtons"
+                android:id="@+id/subtract_button"
+                android:src="@drawable/ic_minus_sign"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/calcButton"
+                android:text="1"
+                android:id="@+id/button_one"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/calcButton"
+                android:text="2"
+                android:id="@+id/button_two"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/calcButton"
+                android:text="3"
+                android:id="@+id/button_three"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <ImageButton
+                style="@style/edgeButtons"
+                android:id="@+id/button_sum"
+                android:src="@drawable/ic_plus"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <ImageButton
+                style="@style/calcButton"
+                android:id="@+id/button_opposite"
+                android:src="@drawable/ic_mathematical_basic_signs_of_plus_and_minus_with_a_slash"
+                 />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/calcButton"
+                android:text="0"
+                android:id="@+id/button_zero"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+            <Button
+                style="@style/calcButton"
+                android:text="."
+                android:id="@+id/button_point"
+                />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+
+            <ImageButton
+                style="@style/resultButton"
+                android:id="@+id/button_result" />
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1" />-->
+        </LinearLayout>
+</LinearLayout>

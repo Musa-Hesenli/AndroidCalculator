@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Calculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark" tools:targetApi="23">@color/button_background_light</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+    <style name="AppTheme">
+        <item name="android:background">@color/app_background_light</item>
+    </style>
+    <style name="MyNoActionBarShadowTheme" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AppCurrentThemeIcon">
+        <item name="android:src">@drawable/ic_dark_mode</item>
+    </style>
+    <style name="MenuThemeIcon">
+        <item name="android:src">@drawable/ic_menu</item>
+    </style>
+    <style name="calcButton">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:backgroundTint">@color/button_background_light</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+    <style name="edgeButtons" parent="calcButton">
+        <item name="android:textColor">@color/app_green</item>
+    </style>
+    <style name="resultButton" parent="edgeButtons">
+        <item name="android:src">@drawable/ic_equal</item>
+    </style>
+    <style name="clearButton" parent="edgeButtons">
+        <item name="android:textColor">@color/app_red_color</item>
+    </style>
+
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+    <style name="bar_buttons">
+        <item name="android:background">#fff</item>
+    </style>
+</resources>

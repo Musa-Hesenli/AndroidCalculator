@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="5"
+    style="@style/AppTheme"
+    >
+    <!--    <include layout="@layout/app_bar"/>-->
+
+    <TextView
+        android:id="@+id/lastExpression"
+        style="@style/processesText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/lato"
+        android:gravity="end|bottom"
+        android:layout_weight="2"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:fontFamily="@font/lato"
+        android:inputType="textMultiLine"
+        android:background="@null"
+        android:textSize="40sp"
+        android:textColor="@color/text_color_light"
+        android:gravity="end"
+        android:layout_marginTop="20dp"
+        android:id="@+id/resultInput"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:id="@+id/calculatorToolbar"
+        android:paddingHorizontal="15dp"
+        >
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_backspace"
+            style="@style/bar_buttons"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/backspace_button"
+            />
+
+    </RelativeLayout>
+    <View style="@style/Divider"/>
+    <include layout="@layout/buttons"/>
+</LinearLayout>
